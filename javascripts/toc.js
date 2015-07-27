@@ -7,6 +7,7 @@
       minimumHeaders: 3,
       headers: 'h1, h2, h3, h4, h5, h6',
       listType: 'ol', // values: [ol|ul]
+      classes: 'anchor options', // blank split.
       showEffect: 'show', // values: [show|slideDown|fadeIn|none]
       showSpeed: 'slow' // set to 0 to deactivate effect
     },
@@ -54,7 +55,7 @@
       }
     })
     .addClass('clickable-header')
-    .addClass('anchor')
+    .addClass(settings.classes)
     .each(function(_, header) {
       this_level = get_level(header);
       if (!settings.noBackToTopLinks && this_level === highest_level) {
