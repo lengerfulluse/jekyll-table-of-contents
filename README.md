@@ -6,10 +6,12 @@ A simple JavaScript table of contents generator. Works well with [jekyll](https:
 
 ### Basic Usage
 
-The script requires jQuery. First, reference `toc.js` in templates where you would like to add the table of content.
+The script requires jQuery. First, reference `jquery.js` and `toc.js` in templates where you would like to add the table of content.
 Then, create an HTML element wherever you want your table of contents to appear:
 
 ```html
+<script src="/javascripts/jquery-2.1.4.min.js" type="text/javascript"></script>
+<script src="/javascripts/toc.js" type="text/javascript"></script>
 <div id="toc"></div>
 ```
 
