@@ -54,6 +54,7 @@
       }
     })
     .addClass('clickable-header')
+    .addClass('anchor')
     .each(function(_, header) {
       this_level = get_level(header);
       if (!settings.noBackToTopLinks && this_level === highest_level) {
