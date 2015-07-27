@@ -37,6 +37,11 @@ rdiscount:
     extensions:
       - generate_toc
 ```
+**@lengerfulluse, seems rdiscount can't generate header id correctly. Please see the following issues:** 
+
+1. https://github.com/jekyll/jekyll/issues/110
+2. https://github.com/jekyll/jekyll/issues/471
+3. https://github.com/ghiculescu/jekyll-table-of-contents/issues/16
 
 ### How It Works
 
